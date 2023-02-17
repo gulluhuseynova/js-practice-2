@@ -1,0 +1,27 @@
+#square {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    transition: all 1s;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+.top-right {
+    top: 0;
+    left: 100%;
+    transform: translateX(-100%);
+}
+.bottom-left {
+    top: 100%;
+    left: 0;
+    transform: translateY(-100%);
+}
+.bottom-right {
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%, -100%);
+}
